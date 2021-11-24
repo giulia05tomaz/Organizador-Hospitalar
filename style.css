@@ -1,0 +1,438 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body{
+   height: 100vh;
+    background-color: #B1C1CF;
+    
+}
+
+h1,h2,h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(41, 41, 41);
+}
+
+
+#Enviar{
+    margin-top: 20px;
+    background-color: #5B5858;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+   
+}
+
+
+#voltar{
+    margin-top: 20px;
+    background-color: #355DCC;
+    color: white;
+    border-radius: 4px;
+    padding: 7px 15px;
+    border: none;
+    font-size: 14px;
+}
+
+#Cartao{
+    display: flex;
+    flex-basis: 100%;
+    flex: 1;
+  
+   
+}
+
+.menu{
+   display: flex;
+   flex-direction: row-reverse;
+  
+
+}
+
+.logo-sus{
+    display: flex;
+    margin-top: 10px;
+    width: 60px;
+    height: 30px;
+    margin-right: 15px;
+    
+}
+
+.texto{
+    margin-top: 100px;
+    color: #3f3f3f;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+
+input{
+    display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 200px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 2px ;
+  border-top:2px solid    rgba(5, 178, 209, 0.418);
+  border-left:2px solid    rgba(5, 178, 209, 0.418);
+  border-right:2px solid    rgba(5, 178, 209, 0.418);
+  border-bottom:2px solid    rgba(5, 178, 209, 0.418); 
+
+}
+
+#titulo{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.login{
+    display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+ 
+
+}
+
+.menu{
+    background-color: #29DFE0;
+    height: 50px;
+    width: 100%;
+}
+
+.botao-entrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 120px;
+    
+    
+
+}
+
+.botao-voltar{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-right: 420px;
+
+}
+
+#titulo-cadastro{
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+.item1 { grid-area: polio; background-color: beige; width: 250px;
+height: 90px; margin-top: 20px; border-radius: 3%; box-shadow: 0 0 1em rgb(0, 0, 0);}
+.item2 { grid-area: tetatno; background-color: beige; width: 250px;
+height: 90px; margin-top: 20px; border-radius: 3%; box-shadow: 0 0 1em rgb(22, 22, 22);}
+.item3 { grid-area: triplice; background-color: beige; width: 250px;
+height: 90px; margin-top: 20px; border-radius: 3%; box-shadow: 0 0 1em rgb(49, 49, 49);}
+.item4 { grid-area: hpv; background-color: beige; width: 250px;
+height: 90px;  margin-top: 20px; border-radius: 3%; box-shadow: 0 0 1em rgb(36, 36, 36);}
+
+
+
+.grid-container > div {
+  font-size: 30px;
+  color: #5B5858;
+
+  
+}
+
+
+.filtro {
+    
+
+display: grid;
+  grid-template-areas:
+    'polio polio polio polio polio polio '
+    'tetatno tetatno tetatno tetatno tetatno tetatno'
+    'triplice triplice triplice triplice triplice triplice'
+    'hpv hpv hpv hpv hpv hpv';
+
+
+  }
+
+  .txt{
+      font-size: 15px;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+
+.grid-container{
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    flex-direction: column-reverse;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    
+}
+
+.Titulo-Vacina{
+    margin-bottom: -40px;
+    font-size: 20px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.conteudo-vacina{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 60px;
+}
+
+ul{
+    list-style: none;
+}
+
+#M{
+    width: 40px;
+}
+
+#Marca{
+    width: 100px;
+    margin-left: 1170px;
+    margin-bottom: 500px;
+   
+}
+
+input[type="checkbox"] 
+{
+    display: none;
+}
+
+nav{
+    background: #2E2D2D;
+    width: 330px;
+    height: 100%;
+    position: absolute;
+    left: -350px;
+    transition: all .7s;
+}
+
+input[type="checkbox"]:checked ~ nav{
+    transform: translateX(350px);
+}
+
+ul{
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+a{
+    display: block;
+    padding: 15px 5px;
+    color: white;
+}
+
+li a:hover{
+    background-color: rgb(176, 230, 226);
+    color: black;
+}
+
+label{
+    
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}  
+
+.container-Menu{
+    margin-top: -50px;
+}
+
+
+
+.verificar-vacina{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#verificar{
+    margin-top: 20px;
+    background-color: #355DCC;
+    color: white;
+    border-radius: 4px;
+    padding: 25px 40px;
+    border: none;
+    font-size: 16px;
+    
+}
+
+#voltar{
+    background-color: #355DCC;
+    color: white;
+    border-radius: 4px;
+    padding: 20px 25px;
+    border: none;
+    font-size: 18px;
+
+}
+
+.Voltar-Carteira{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+
+.titulo_vacinas{
+    margin-bottom: 20px;
+    margin-top: 80px;
+    font-size: 24px;
+    margin-left: -60px;
+    text-align: center;
+}
+
+.img-campanha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container-consulta{
+   margin-top: 100px;
+   margin-left: 50px;
+}
+
+.titulo-consulta{
+    margin-bottom: 40px;
+}
+
+.campo-consulta{
+    width: 400px;
+    margin-left: -5px;
+}
+
+.consulta-botao{
+    margin: 50px;
+}
+
+#botao-consulta{
+    background-color: #355DCC;
+    color: white;
+    border-radius: 4px;
+    padding: 15px 25px;
+    border: none;
+    font-size: 18px;
+}
+
+.img-perfil{
+    height: 230px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.container-perfil{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.perfil-botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 70px;
+    
+}
+
+#botao-trocar{
+    background-color: #355DCC;
+    color: white;
+    border-radius: 4px;
+    padding: 15px 15px;
+    border: none;
+    font-size: 18px;
+    margin: 15px;
+}
+.cep{
+    margin-top: 30px;
+}
+
+.contato{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.logo-contato{
+    margin-top: 50px;
+}
+
+@media only screen and (max-device-width: 900px) {
+    body { width:100%;
+    height: 30%;
+    zoom: 150%;
+    }
+    }
+
+@media only screen and (max-device-width: 700px) {
+        body { width:100%;
+        height: 30%;
+        zoom: 200%;
+        }
+        }
+    
+
+    @media only screen and (max-device-width: 400px) {
+        body { width:100%;
+        height: 30%;
+        zoom: 300%;
+        }   
+        }
+
+        
+    @media only screen and (max-device-width: 300px) {
+        body { width:100%;
+        height: 30%;
+        zoom: 300%;
+        }
+        }
+
+             
+    @media only screen and (max-device-width: 1000px) {
+        body { width:100%;
+        height: 30%;
+        zoom: 150%;
+        }
+        }
+
+      

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="UTF-8"/>
+       <link rel="stylesheet" href="style.css">
+       <link rel="shortcut icon" href="img/health tech (1).png" type="image/x-icon">
+       <script src="//code.jquery.com/jquery.min.js"></script>
+        <script src="js/jquery.imageview.js"></script>
+        <title>Vacinas Disponiveis na Região</title>
+
+    </head>
+
+    <body>
+        <header>
+            <div class="menu">
+                <img src="img/Sus.png" class="logo-sus">
+            </div>
+            <div class="container-Menu">
+            <input type="checkbox" id="chec">
+            <label for="chec">
+                <img src="img/Menu.png" id="M">
+            </label>
+        <nav>
+            <ul class="Min">
+
+                <li><a href="carteira_vacinas.html">Vacinas</a></li>
+                <li><a href="Consultas.html">Marcar Consultas</a></li>
+                <li><a href="Perfil.html">Perfil</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+                <li><a href="index.html">Sair</a></li>
+            </ul>
+        </nav>
+    </div>
+        </header>
+
+        <h2 class="titulo_vacinas">Vacinas disponiveis em Mauá</h2>
+            
+
+
+        <div id="iv" class="img-campanha" >
+
+            <script>
+                $('#iv').imageview();
+    
+                $('#iv').imageview({
+    
+                targetSelector:'a',
+    
+                srcAttr:'href',
+    
+                titleAttr:'title'
+    
+            });
+    
+    
+                </script>
+            
+              <a href="img/campanha1.jpeg"><img src="img/campanha1.jpeg" width="300px"></a>
+           
+              <a href="img/campanha2.jpeg"><img src="img/campanha2.jpeg" width="300px"></a>
+            
+              <a href="img/campanha3.jpeg"><img src="img/campanha3.jpeg" width="300px"></a>
+            
+             
+        </div>
+
+       
+
+            <div class="Voltar-Carteira">
+                <a href="carteira_vacinas.html"> <button type="button" id="voltar">Voltar </button> </a>
+            </div>
+    </body>
+</html>
